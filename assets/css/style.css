@@ -225,13 +225,14 @@ ul.list-cstm-pro li {
   
   ul.list-cstm-pro li::before {
 	content: "";
-	width: 16px;
-	height: 16px;
+	width: 15px;
+	height: 15px;
 	background:  rgb(0, 217, 255);
 	display: inline-block;
 	position: relative;
 	outline: 1px solid #305360;
 	left: 0;
+	border-radius:50%;
 	top: 2px;
 	border: 2px solid #fff;
 	margin-right: 12px;
